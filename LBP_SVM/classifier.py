@@ -16,7 +16,7 @@ random.seed(1996)
 np.random.seed(1996)
 
 #load training labels
-train_labels = pd.read_csv('./input/train_labels.csv')
+train_labels = pd.read_csv('../input/train_labels.csv')
 training_labels = np.array(list(train_labels.drop("name", axis=1)["invasive"]))
 
 #load training data (allready normalized)

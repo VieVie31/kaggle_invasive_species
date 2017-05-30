@@ -23,12 +23,12 @@ from tqdm import tqdm
 import warnings
 warnings.filterwarnings('ignore')
 
-TRAIN_PATH = './input/train/'
-TEST_PATH  = './input/test/'
+TRAIN_PATH = '../input/train/'
+TEST_PATH  = '../input/test/'
 
 LOAD_NB_MAX_TRAINING_DATA = 2295
 
-train_labels = pd.read_csv('./input/train_labels.csv')
+train_labels = pd.read_csv('../input/train_labels.csv')
 
 
 def load_img(n, training=True):
